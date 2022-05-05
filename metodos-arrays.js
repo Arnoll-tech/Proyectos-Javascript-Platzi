@@ -15,7 +15,7 @@ let articulosFiltrados = articulos.filter(function(articulo){
 });
 console.log(articulosFiltrados);
 */
-
+//metodo .map para mapear todo el contenido del array y trae solo lo que estamos buscando
 let articulos = [
     {nombre : "Bicicleta", costo: 3000 },
     {nombre : "Televisor", costo: 4500 },
