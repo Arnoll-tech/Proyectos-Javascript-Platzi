@@ -3,7 +3,7 @@
     this.modelo = modelo;
     this.year = year;  
 }
-//la funcion constructura es cuando nececitamos llamar la funcin con distintos patramtros
+//la funcion constructura e scuando nececitamos llamar la funcin con distintos patramtros
 //escribimos la variable "New" la cual podremos colocar distintas variables modificando la funcion
 let newCar = new car("Tesla", "Model_3", 2020);
 console.log (newCar);

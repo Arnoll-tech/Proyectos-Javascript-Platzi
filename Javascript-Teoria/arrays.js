@@ -9,7 +9,7 @@ let frutas = ["Manzana", "Platano", "Cereza", "Fresa"];
 //quitar elementos
 //let ultimo = frutas.pop("Uvas");
 //console.log(frutas);
-//agregar elementos del array al principio de la lista
+//agragr elementos del array al principio de la lista
 //let nuevaLongitud = frutas.unshift("Cocos");
 //console.log(frutas);
 //para borrar elementos del array se agrega al variable el .shift
