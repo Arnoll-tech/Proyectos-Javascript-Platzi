@@ -79,22 +79,14 @@ while (num >= 2) {
 }
 */
 /*falla aun le flata que valide y si 4 es verdadero y si da otro numero que repita la pregunta hasta que la respuesta se acorrecta
-let pregunta = window.prompt("Cuanto es 2+2 ");
-let num = 4;
-function suma(pregunta, num) {
 
-    if (num == pregunta) {
-        document.write("Felicitaciones esa es la respuesta ");
-
-    } else {
-        window.prompt("Cuanto es 2+2 ");
-    }
-}
-
-suma();
+var solucion = 0
+do{
+    solucion = Number(prompt('Cuanto es 2+2?'))
+}while(solucion!==4)
 */
 //Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
-
+/*
 
 let objeto = ["Persona ", "Caracol ", "Carro ", "Dios ", "Mesa"];
 
@@ -104,7 +96,15 @@ function objetos(primerElemento) {
     return document.write(primerElemento);
 }
 objetos();
-
+*/
 
 //Crea una función que pueda recibir cualquier array como parámetro e imprima 
 //todos sus elementos uno por uno (no se vale imprimir el array completo)
+/*
+const tiposSuscripciones = ['Free','Basic','Expert','Expert+']
+
+const elementos = (array) => array.forEach((elemento,index) => console.log(`El elemento ${index} del array es ${elemento}`))
+
+primerElemento(tiposSuscripciones)
+
+*/
