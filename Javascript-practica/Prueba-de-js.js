@@ -101,10 +101,10 @@ objetos();
 //Crea una función que pueda recibir cualquier array como parámetro e imprima 
 //todos sus elementos uno por uno (no se vale imprimir el array completo)
 /*
-const tiposSuscripciones = ['Free','Basic','Expert','Expert+']
-
-const elementos = (array) => array.forEach((elemento,index) => console.log(`El elemento ${index} del array es ${elemento}`))
-
-primerElemento(tiposSuscripciones)
+const array1 = ['a', 'b', 'c'];
+function imprimirArray(array){
+    array.forEach(element => console.log(element))
+}
+imprimirArray(array1)
 
 */
